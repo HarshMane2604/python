@@ -1,6 +1,10 @@
 score = int(input("Please Enter your score: "))
 Grade = ''
-if score >= 90 and score <= 100:
+
+if score>= 101:
+    print("Invalid score")
+    exit()
+elif score >= 90 and score <= 100:
     Grade = 'A'
 elif score >= 80 and score <= 89:
     Grade = 'B'
